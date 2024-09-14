@@ -1,0 +1,37 @@
+.odin {
+  max-width: 576px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid red;
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.titulo {
+  font-size: 24px;
+  color: #333;
+}
+
+.texto {
+  font-size: 16px;
+  color: #666;
+}
